@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.integrations {
+  background: #E5E5E5;
+  min-height: max-content;
+}
+
+.integrations-container {
+  position: relative;
+  min-height: 65vh;
+}
+
+.integrations-cards {
+  padding: 64px 0px;
+  position: relative;
+}
+
+.welcome {
+  background-image: url("../image/line.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 8px;
+  min-height: 300px;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 44px;
+}
+
+.logo-image {
+  width: 10%;
+}
+
+.welcome-text {
+  width: 600px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  color: #FFF;
+  margin: 16px 0px;
+}
+
+.welcome-text h3 {
+  font-weight: bold;
+  font-size: 48px;
+  padding: 8px 0px;
+}
+
+.welcome-text p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card:hover {
+  border: none;
+  box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
+  transition: box-shadow 0.3s ease;
+}
+
+.card-image {
+  margin: 0 auto;
+  height: 150px;
+  width: 200px;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-title {
+  margin: 8px 0px;
+  color: #454F5B;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-description {
+  margin: 8px 0px;
+  color: #454F5B;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card-button {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  color: #FF3000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background: transparent;
+}
+
+.card-button:hover {
+  background: rgba(250, 179, 124, 0.5);
+}
+
+.footer {
+  width: 100%;
+  background: #092234;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding: 8px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .card {
+    margin: 8px 0px;
+  }
+  .card-image img {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer {
+    display: none;
+  }
+}
