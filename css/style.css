@@ -17,11 +17,10 @@
 
 .welcome {
   background-image: url("../image/line.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: auto 300px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
   padding: 8px;
-  height: 300px;
 }
 
 .logo {
